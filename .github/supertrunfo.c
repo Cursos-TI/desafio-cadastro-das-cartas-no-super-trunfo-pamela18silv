@@ -69,11 +69,11 @@
 
     //Calculo densidade  e per capita carta 1 e 2 (nível aventureiro)
     //--Carta 1--
-    float densidade1 = populacao1 / area1;
-    float percapita1 = pib1 / populacao1;
+    float densidade1 = (float)populacao1 / area1;
+    float percapita1 = pib1 / (float)populacao1;
     //--Carta 2--
-    float densidade2 = populacao2 / area2;
-    float percapita2 = pib2 / populacao2;
+    float densidade2 = (float)populacao2 / area2;
+    float percapita2 = pib2 / (float)populacao2;
 
     // Visualização das cartas
     // *carta 1
